@@ -168,6 +168,7 @@ body {
     background-color: rgb(222, 189, 117);
     margin-left: 300px;
     margin-top: 300px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 
 .letter img {
@@ -190,4 +191,3 @@ body {
     transition: 2s ease-out;
     opacity: 1;
 }
-
