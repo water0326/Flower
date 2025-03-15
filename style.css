@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 1000px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    margin-left: 250px;
+    margin-top: 250px;
+}
+
+.leaf {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: red;
+    margin-top: 250px;
+}
+
+.leaf2 {
+    position: absolute;
+    width: 500px;
+    height: 1000px;
+    border-radius: 100%;
+    background-color: red;
+    margin-left: 250px;
+}
+
+.leaf3 {
+    position: absolute;
+    width: 500px;
+    height: 1000px;
+    border-radius: 100%;
+    background-color: red;
+    margin-left: 250px;
+    transform: rotate(45deg);
+}
+
+.leaf4 {
+    position: absolute;
+    width: 500px;
+    height: 1000px;
+    border-radius: 100%;
+    background-color: red;
+    margin-left: 250px;
+    transform: rotate(-45deg);
+}
+
+.leaf5 {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    border-radius: 100%;
+    background-color: rgb(204, 27, 27);
+    margin-left: 300px;
+    margin-top: 100px;
+    transform: rotate(0deg);
+}
+
+.leaf6 {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    border-radius: 100%;
+    background-color: rgb(204, 27, 27);
+    margin-left: 300px;
+    margin-top: 100px;
+    transform: rotate(-135deg);
+}
+
+.leaf7 {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    border-radius: 100%;
+    background-color: rgb(204, 27, 27);
+    margin-left: 300px;
+    margin-top: 100px;
+    transform: rotate(-45deg);
+}
+
+.leaf8 {
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    border-radius: 100%;
+    background-color: rgb(204, 27, 27);
+    margin-left: 300px;
+    margin-top: 100px;
+    transform: rotate(-90deg);
+}
+
+.julgi {
+    position: absolute;
+    width: 20px;
+    height: 2000px;
+    background-color: green;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.eepsagui {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background-color: green;
+    margin-left: 300px;
+    margin-top: 1000px;
+}
+
+.eepsagui2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background-color: green;
+    margin-left: 520px;
+    margin-top: 1400px;
+    transform: rotate(90deg);
+}
+
+.container {
+    position: absolute;
+    background-color: white;
+    transition: 2s;
+}
+
+.container:hover {
+    transition: 2s;
+    transform: rotate(10000deg) scale(2);    
+}
+
+.one {
+    margin-left: 3400px;
+    margin-top: 500px;
+}
+
+.two {
+    margin-left: 1900px;
+    margin-top: 500px;
+}
+
+
+.three {
+    margin-left: 400px;
+    margin-top: 500px;
+}
